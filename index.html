@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cybergames</title>
+<link rel="stylesheet" href="style.css">
+	<style>
+body {
+font-family:Arial, sans-serif;
+background-color: #101010;
+color: white;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #1e1e1e;
+padding: 15px;
+text-align: center;
+}
+nav a {
+color: #00ff88;
+margin: 0 10px;
+text-decoration: none;
+}
+nav a:hover {
+text-decoration: underline;
+}
+.banner img {
+width:50%;
+height:400px;
+display: flex;
+justify-content: center;
+margin: 100px auto; 
+overflow: hidden;
+}
+section {
+padding: 20px;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+th, td {
+border: 1px solid #00ff88;
+padding: 8px;
+text-align: center;
+}
+.produto img {
+width: 200px;
+border-radius: 10px;
+}
+form {
+display: flex;
+flex-direction: column;
+max-width: 400px;
+}
+input, textarea {
+margin-bottom: 10px;
+padding: 8px;
+border-radius: 5px;
+}
+button {
+background-color: #00ff88;
+padding: 10px;
+border: none;
+font-size: 16px;
+cursor: pointer;
+}
+button:hover {
+background-color: #00cc66;
+}
+.slider {
+    width: 100%;
+    max-width: 900px;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    animation: slide 12s infinite;
+}
+
+.slide {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+@keyframes slide {
+    0% { margin-left: 0; }
+    25% { margin-left: 0; }
+
+    35% { margin-left: -100%; }
+    60% { margin-left: -100%; }
+
+    70% { margin-left: -200%; }
+    100% { margin-left: -200%; }
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Cybergames</h1>
+	<hr>
+<nav>
+<a href="index.html">Início</a>
+<a href="produtos.html">Produtos</a>
+<a href="contato.html">Contato</a>
+</nav>
+	<hr>
+</header>
+
+
+<section class="banner">
+	<div class="slider">
+    <div class="slides">
+
+        <div class="slide">
+<img src="cyberpunk.jpg" alt="Banner de Jogos">
+		</div>
+		<div class="slide">
+	<img src="eldenring.jpg" alt="Banner de Jogos">
+		</div>
+		<div class="slide">
+	<img src="GodofWar.jpg" alt="Banner de Jogos">
+		</div>
+		<div class="slide">
+	<img src="readdeadredeption2.jpg" alt="Banner de Jogos">
+		</div>
+		<div class="slide">
+	<img src="thewitcher3.jpg" alt="Banner de Jogos">
+		</div>
+	</div>
+	</div>
+</section>
+
+
+<section>
+<h2>Bem-vindo à Cybergames!</h2>
+<p>A melhor loja para você comprar seus jogos preferidos para PC e consoles. Trabalhamos com os melhores lançamentos do mercado gamer.</p>
+
+
+<h3>Top 5 Jogos Mais Vendidos</h3>
+<ol>
+<li>Elden Ring</li>
+<li>God of War Ragnarok</li>
+<li>The Witcher 3</li>
+<li>Cyberpunk 2077</li>
+<li>Red Dead Redemption 2</li>
+</ol>
+
+
+<h3>Plataformas Disponíveis</h3>
+<ul>
+<li>PC</li>
+<li>PlayStation 5</li>
+<li>Xbox Series X</li>
+<li>Nintendo Switch</li>
+</ul>
+
+
+<h3>Comparação de Preços</h3>
+	
+<table>
+<tr>
+<th>Jogo</th>
+<th>PC</th>
+<th>PS5</th>
+<th>Xbox</th>
+</tr>
+<tr>
+<td>Elden Ring</td>
+<td>R$ 179</td>
+<td>R$ 249</td>
+<td>R$ 249</td>
+</tr>
+<tr>
+<td>God of War</td>
+<td>R$ 199</td>
+<td>R$ 249</td>
+<td>R$ 229</td>
+</tr>
+<tr>
+<td>The Witcher 3</td>
+<td>R$ 129</td>
+<td>R$ 239</td>
+<td>R$ 240</td>
+</tr>
+<tr>
+<td>Cyberpunk 2077</td>
+<td>R$ 210</td>
+<td>R$ 220</td>
+<td>R$ 250</td>
+</tr>
+<tr>
+<td>Read Dead Redeption 2</td>
+<td>R$ 200</td>
+<td>R$ 210</td>
+<td>R$ 230</td>
+</tr>
+</table>
+	</section>
+	<h4>Endereço: Taguatinga Leste - Rua 365 Lote 12 / Ponto de referência: Lojinha da Lucinda 2025 CybergamesLtda. Todos os direitos reservados.</h4>
+		
+</body>
+</html>
